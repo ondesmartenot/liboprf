@@ -38,7 +38,7 @@ having a different role in the protocol utilizing the shared key. This
 does not translate entirely to threshold OPRFs (tOPRF) and protocols
 based on these.
 
-In an OPRF there is normally two parties, one holding the key, and
+In an OPRF there are normally two parties, one holding the key, and
 another one holding the input and learning the output. In a tOPRF the
 party holding the key is a group of peers that hold shares of the key
 in a threshold setting.
@@ -51,7 +51,7 @@ OPRFs it is in the best interest of the input-holding party to not
 learn the key (or its parts) - otherwise the input-holding party could
 just deploy a PRF instead.
 
-And if the input holding party is in such a trusted role, there is two
+And if the input holding party is in such a trusted role, there are two
 options to generate a threshold shared key:
 
  1. the trusted input-holding party just generates a secret and shares
